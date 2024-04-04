@@ -52,7 +52,6 @@ public class NoticeController {
         // 로그인된 사용자 아이디는 Session에 저장함
         // 교육용으로 아직 로그인을 구현하지 않았기 때문에 Session에 데이터를 저장하지 않았음
         // 추후 로그인을 구현할 것으로 가정하고, 공지사항 리스트 출력하는 함수에서 로그인 한 것처럼 Session 값을 생성함
-        session.setAttribute("SESSION_USER_ID", "USER01");
 
         // 공지사항 리스트 조회하기
         // Java 8부터 제공되는 Optional 활용하여 NPE(Null Pointer Exception) 처리
